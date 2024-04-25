@@ -1,0 +1,17 @@
+[{
+	"filename": "food.json",
+	"name": "食品",
+	"status": 1
+}, {
+	"filename": "tasks.json",
+	"name": "任务卡片",
+	"status": 0
+}, {
+	"filename": "sport.json",
+	"name": "运动",
+	"status": 1
+}, {
+	"filename": "sex.json",
+	"name": "姿势大全",
+	"status": 0
+}]

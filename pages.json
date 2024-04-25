@@ -1,0 +1,72 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/homepage/homepage",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle":"custom"
+		    }
+		    
+		},
+		{
+			"path": "pages/selector/selector",
+			"style": {
+				"navigationStyle":"custom"
+				// "navigationBarTitleText": "组件"
+			}
+		}
+	   
+        ,{
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/selector/set_menu/set_menu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/truthordare/truthordare",
+            "style" :                                                                                    
+            {
+                "navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/flyingchess/flyingchess",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dices/dices",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
